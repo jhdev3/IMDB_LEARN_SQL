@@ -1,5 +1,7 @@
+--Tips är att inte köra Denna SQL fil rakt upp och ner utan markera och kör SQL kommandon i Ordning som det är.
+--Viktigt är att börja med Populate_And_Create_TempTable
 
-DROP TABLE IF EXISTS TitleRatings
+DROP TABLE IF EXISTS TitleRatings;
 
 --Blir One To One Relationship så då kan lika gärna Primary Key här vara Title_Id samt Vara Foreign Key.
 CREATE TABLE TitleRatings (
@@ -12,7 +14,7 @@ CREATE TABLE TitleRatings (
 ALTER TABLE TitleRatings
   ADD CONSTRAINT FK_TitleRatings_Titles
   FOREIGN KEY (title_Id)
-  REFERENCES dbo.Titles(title_Id)
+  REFERENCES dbo.Titles(title_Id);
 
 --Populate Title_Ratings -- InnerJoint för att filtrera bort de titlar som inte finns i titel tabellen
 /*
@@ -35,3 +37,6 @@ FROM TitleRatings
 FULL OUTER JOIN Titles
 ON TitleRatings.title_Id = Titles.title_Id
 WHERE TitleRatings.title_Id = 'tt9916778';
+
+
+DROP TABLE TempTitleRatings;
