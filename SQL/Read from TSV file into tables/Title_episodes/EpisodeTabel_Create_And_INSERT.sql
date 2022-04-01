@@ -30,3 +30,4 @@ LEFT JOIN Titles on Episodes.episode_Id = Titles.title_Id
 WHERE episode_Number = '72615';
 
 DROP TABLE TempEpisodes
+
