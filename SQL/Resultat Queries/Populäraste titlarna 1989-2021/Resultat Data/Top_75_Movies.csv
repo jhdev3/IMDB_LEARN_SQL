@@ -1,0 +1,76 @@
+﻿title_Id;start_Year;title_Type;original_Title;average_Rating;num_Votes;Geners
+tt0111161;1994;movie;The Shawshank Redemption;9.3;2565428;Drama
+tt0108052;1993;movie;Schindler's List;9;1307474;Biography,Drama,History
+tt0110912;1994;movie;Pulp Fiction;8.9;1969649;Crime,Drama
+tt0137523;1999;movie;Fight Club;8.8;2018650;Drama
+tt0109830;1994;movie;Forrest Gump;8.8;1978873;Drama,Romance
+tt0133093;1999;movie;The Matrix;8.7;1847038;Action,Sci-Fi
+tt0099685;1990;movie;Goodfellas;8.7;1107187;Biography,Crime,Drama
+tt0118799;1997;movie;La vita è bella;8.6;672276;Comedy,Drama,Romance
+tt0120689;1999;movie;The Green Mile;8.6;1247364;Crime,Drama,Fantasy
+tt0120815;1998;movie;Saving Private Ryan;8.6;1336615;Drama,War
+tt0103064;1991;movie;Terminator 2: Judgment Day;8.6;1061695;Action,Sci-Fi
+tt0102926;1991;movie;The Silence of the Lambs;8.6;1375753;Crime,Drama,Thriller
+tt0110413;1994;movie;Léon;8.6;1118630;Action,Crime,Drama
+tt0114369;1995;movie;Se7en;8.6;1572988;Crime,Drama,Mystery
+tt0114814;1995;movie;The Usual Suspects;8.5;1055173;Crime,Drama,Mystery
+tt0110357;1994;movie;The Lion King;8.5;1016443;Adventure,Animation,Drama
+tt0120586;1998;movie;American History X;8.5;1090999;Drama
+tt0172495;2000;movie;Gladiator;8.5;1443918;Action,Adventure,Drama
+tt0209144;2000;movie;Memento;8.5;1200383;Mystery,Thriller
+tt0169547;1999;movie;American Beauty;8.4;1126895;Drama
+tt0119698;1997;movie;Mononoke-hime;8.4;378758;Action,Adventure,Animation
+tt0112573;1995;movie;Braveheart;8.4;1011664;Biography,Drama,History
+tt0114709;1995;movie;Toy Story;8.3;956502;Adventure,Animation,Comedy
+tt0113277;1995;movie;Heat;8.3;629219;Action,Crime,Drama
+tt0105236;1992;movie;Reservoir Dogs;8.3;984405;Crime,Drama,Thriller
+tt0468569;2008;movie;The Dark Knight;9.1;2528373;Action,Crime,Drama
+tt0167260;2003;movie;The Lord of the Rings: The Return of the King;9;1765391;Action,Adventure,Drama
+tt0120737;2001;movie;The Lord of the Rings: The Fellowship of the Ring;8.9;1787139;Action,Adventure,Drama
+tt1375666;2010;movie;Inception;8.8;2251650;Action,Adventure,Sci-Fi
+tt0167261;2002;movie;The Lord of the Rings: The Two Towers;8.8;1594912;Action,Adventure,Drama
+tt0245429;2001;movie;Sen to Chihiro no kamikakushi;8.6;724739;Adventure,Animation,Family
+tt0253474;2002;movie;The Pianist;8.6;799265;Biography,Drama,Music
+tt0317248;2002;movie;Cidade de Deus;8.6;737630;Crime,Drama
+tt0172495;2000;movie;Gladiator;8.5;1443918;Action,Adventure,Drama
+tt0209144;2000;movie;Memento;8.5;1200383;Mystery,Thriller
+tt0407887;2006;movie;The Departed;8.5;1277406;Crime,Drama,Thriller
+tt0482571;2006;movie;The Prestige;8.5;1285228;Drama,Mystery,Thriller
+tt1424432;2010;movie;Senna;8.5;69379;Biography,Documentary,Sport
+tt1187043;2009;movie;3 Idiots;8.5;382432;Comedy,Drama
+tt1675434;2011;movie;Intouchables;8.5;825307;Biography,Comedy,Drama
+tt0986264;2007;movie;Taare Zameen Par;8.4;187156;Drama,Family
+tt0910970;2008;movie;WALL·E;8.4;1076115;Adventure,Animation,Family
+tt0405094;2006;movie;Das Leben der Anderen;8.4;381328;Drama,Mystery,Thriller
+tt0364569;2003;movie;Oldeuboi;8.4;558068;Action,Drama,Mystery
+tt0367110;2004;movie;Swades: We, the People;8.3;88834;Drama,Musical
+tt0372784;2005;movie;Batman Begins;8.3;1412932;Action,Crime,Drama
+tt0361748;2009;movie;Inglourious Basterds;8.3;1382973;Adventure,Drama,War
+tt0338013;2004;movie;Eternal Sunshine of the Spotless Mind;8.3;974401;Drama,Romance,Sci-Fi
+tt0180093;2000;movie;Requiem for a Dream;8.3;815844;Drama
+tt0208092;2000;movie;Snatch;8.3;832017;Comedy,Crime
+tt15097216;2021;movie;Jai Bhim;9.4;183559;Crime,Drama,Mystery
+tt10189514;2020;movie;Soorarai Pottru;9.3;108897;Drama
+tt5813916;2016;movie;Dag II;9;107774;Action,Drama,War
+tt10295212;2021;movie;Shershaah;8.9;115533;Action,Biography,Drama
+tt10554232;2020;movie;Dara iz Jasenovca;8.9;80523;Drama,War
+tt0816692;2014;movie;Interstellar;8.7;1709362;Adventure,Drama,Sci-Fi
+tt4154756;2018;movie;Avengers: Infinity War;8.5;996196;Action,Adventure,Sci-Fi
+tt2582802;2014;movie;Whiplash;8.5;799599;Drama,Music
+tt7838252;2018;movie;K.G.F: Chapter 1;8.5;58400;Action,Crime,Drama
+tt6751668;2019;movie;Gisaengchung;8.5;729094;Comedy,Drama,Thriller
+tt10872600;2021;movie;Spider-Man: No Way Home;8.5;552575;Action,Adventure,Fantasy
+tt1675434;2011;movie;Intouchables;8.5;825307;Biography,Comedy,Drama
+tt1853728;2012;movie;Django Unchained;8.5;1482362;Drama,Western
+tt2380307;2017;movie;Coco;8.4;469390;Adventure,Animation,Comedy
+tt1877830;2022;movie;The Batman;8.4;282802;Action,Crime,Drama
+tt1345836;2012;movie;The Dark Knight Rises;8.4;1637225;Action,Crime,Drama
+tt7286456;2019;movie;Joker;8.4;1167682;Crime,Drama,Thriller
+tt8503618;2020;movie;Hamilton;8.4;84824;Biography,Drama,History
+tt8267604;2018;movie;Capharnaüm;8.4;83267;Drama
+tt8291224;2019;movie;Uri: The Surgical Strike;8.4;57549;Action,Drama,History
+tt4154796;2019;movie;Avengers: Endgame;8.4;1030653;Action,Adventure,Drama
+tt4633694;2018;movie;Spider-Man: Into the Spider-Verse;8.4;479693;Action,Adventure,Animation
+tt5074352;2016;movie;Dangal;8.4;180430;Action,Biography,Drama
+tt5311514;2016;movie;Kimi no na wa.;8.4;245413;Animation,Drama,Fantasy
+tt4849438;2017;movie;Bãhubali 2: The Conclusion;8.3;86987;Action,Drama
