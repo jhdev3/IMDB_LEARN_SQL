@@ -23,6 +23,6 @@ WITH
 );
 /* 
 	Resultat: 
-	(8799418 rows affected) :) Jippi
+	(8 799 418 rows affected) :) Jippi
 
 */

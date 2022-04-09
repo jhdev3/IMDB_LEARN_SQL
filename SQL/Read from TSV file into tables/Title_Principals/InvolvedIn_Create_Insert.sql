@@ -53,6 +53,9 @@ ORDER BY ordering
 CREATE INDEX fk_title_Id--Gav bra resultat så gör det på båda FKs i den största tabellen :)
 ON InvolvedIn (title_Id);
 
+DROP INDEX fk_title_Id ON InvolvedIn;
+
 
 CREATE INDEX fk_person_Id --Funger ej För mig för får Ont om plats 1178.59 MB Space kvar kan vara någon begränsing som sql express har etc. Kul att se drawback av Index samt Lösningen här kan vara att göra En till FilGroup eller lägga denna tabell i eller dela upp tabeller i flera dbs
 ON InvolvedIn (person_Id);
+
