@@ -16,7 +16,7 @@ CROSS APPLY sys.dm_exec_sql_text(dm_exec_query_stats.plan_handle)
 CROSS APPLY sys.dm_exec_query_plan(dm_exec_query_stats.plan_handle)
 INNER JOIN sys.databases
 ON dm_exec_sql_text.dbid = databases.database_id
-WHERE dm_exec_sql_text.text LIKE '%TitlesGenres%';
+WHERE dm_exec_sql_text.text LIKE '%Directors%';
 
 /*Rensa Query plans för testning */
 DBCC FREEPROCCACHE

@@ -33,10 +33,34 @@ nm0118778	Colin Bucksey	8.36
 
 
 
+/*Prestanda */
+--Known for tabell
+
+	CREATE INDEX Index_KnownFor_TitleId
+	ON KnownFor (title_Id);
+
+	DROP INDEX Index_KnownFor_TitleId ON KnownFor;
+
+
+	CREATE INDEX Index_KnownFor_PersonId
+	ON KnownFor (person_Id);
+
+	DROP INDEX Index_KnownFor_PersonId ON KnownFor;
+
+--Director Tabell
+	CREATE INDEX Index_Directors_TitleId
+	ON Directors (title_Id);
+
+	DROP INDEX Index_Directors_TitleId ON Directors;
+
+
+	CREATE INDEX Index_Directors_PersonId
+	ON Directors (person_Id);
+
+	DROP INDEX Index_Directors_PersonId ON Directors;
 
 
 
---Tid för 1st TestQuery. 16 Sekunder 
 
 SELECT TOP_10.person_Name, title_type, primary_Title, original_Title FROM Titles as T
 INNER JOIN KnownFor as K
@@ -45,6 +69,7 @@ INNER JOIN TOP_10_Directors_AVG_Rating as TOP_10
 ON K.person_Id = TOP_10.person_Id
 ORDER BY TOP_10.person_Name
 
+--Tid 40 Sek
 --Det hjälper att vara med i Populära TVSerier ;) som Tex Game Of Thrones :
 /* 
 person_Name	title_type	primary_Title	original_Title
