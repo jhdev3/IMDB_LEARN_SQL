@@ -46,7 +46,7 @@ WHERE original_title = 'The Shawshank Redemption' AND title_Type = 'movie'
 ORDER BY ordering
 
 
---Tid 14 Sekunder Kanske bör Sätta Index på Foreign Keys;)
+--Tid 17 Sekunder Kanske bör Sätta Index på Foreign Keys;)
 --Tid 1 Sekund med Index :)
 --Test Med Index Här finns det möjligheter att göra CLUSTER som ska vara snabbare eftersom jag inte har PK samt Går bara ha 1 per tabell dock vet jag inte hur bra det är när det inte är unika värden.:)
 
@@ -59,3 +59,4 @@ DROP INDEX fk_title_Id ON InvolvedIn;
 CREATE INDEX fk_person_Id --Funger ej För mig för får Ont om plats 1178.59 MB Space kvar kan vara någon begränsing som sql express har etc. Kul att se drawback av Index samt Lösningen här kan vara att göra En till FilGroup eller lägga denna tabell i eller dela upp tabeller i flera dbs
 ON InvolvedIn (person_Id);
 
+	

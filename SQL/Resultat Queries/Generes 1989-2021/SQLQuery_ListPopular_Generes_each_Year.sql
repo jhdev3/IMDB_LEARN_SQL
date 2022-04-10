@@ -7,7 +7,7 @@ SET @Year=1989
 WHILE ( @Year <= 2021)
 BEGIN
 	--Sparar mitt resultat i en Databas ny databas för att Bara ha resultat tabellerna samlade i ett ställe gör det Lättare att Titta på/filtrera/exportera/ datan ;)
-	INSERT INTO [IMDB_Results].[dbo].TOP5_Most_Prod_Per_Genre_1989_to_2021([Year], [Gener_name], [Productions])
+	--INSERT INTO [IMDB_Results].[dbo].TOP5_Most_Prod_Per_Genre_1989_to_2021([Year], [Gener_name], [Productions])
 		SELECT TOP 5 [Year]= @Year, TG.Gener_name, COUNT(t.start_Year) as Productions FROM Titles as T
 		INNER JOIN TitlesGenres as TG
 		ON T.title_Id = TG.title_Id
@@ -19,6 +19,18 @@ BEGIN
 	SET @Year  = @Year  + 1
 END
 -- Total tid 3 min 17 sekunder. 165 Rader ,33 år Varje "Query" tar 6 sekunder i snitt.   
+
+/*Prestanda förbättringar  
+	
+	Föregående query med Index
+	Total tid 
+
+*/
+CREATE INDEX Index_Genres
+ON TitlesGenres (Gener_name);
+
+DROP INDEX Index_Genres ON TitlesGenres;
+
 
 SELECT count(DISTINCT Gener_name) FROM TOP5_Most_Prod_Per_Genre_1989_to_2021
 -- 11 Olika Genres :)
@@ -127,3 +139,41 @@ CREATE TABLE TOP5_Most_Prod_Per_Genre_1989_to_2021(
 	Gener_name VARCHAR(25),
 	Productions INT
 );
+
+SELECT Gener_name FROM TitlesGenres
+GROUP BY Gener_name
+ORDER BY Gener_name 
+
+/*
+	28 Geners. Räknar bort \N då det är null
+Gener_name
+	\N
+	Action
+	Adult
+	Adventure
+	Animation
+	Biography
+	Comedy
+	Crime
+	Documentary
+	Drama
+	Family
+	Fantasy
+	Film-Noir
+	Game-Show
+	History
+	Horror
+	Music
+	Musical
+	Mystery
+	News
+	Reality-TV
+	Romance
+	Sci-Fi
+	Short
+	Sport
+	Talk-Show
+	Thriller
+	War
+	Western
+*/
